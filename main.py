@@ -9,7 +9,7 @@ import io
 from pydub.silence import split_on_silence
 
 # --- 配置 ---
-MODEL_PATH = "vosk-model-cn-0.22" # 确保模型文件夹在此路径
+MODEL_PATH = "vosk-model-small-cn-0.22" # 确保模型文件夹在此路径
 VOSK_SAMPLE_RATE = 16000
 
 # --- 初始化 ---
